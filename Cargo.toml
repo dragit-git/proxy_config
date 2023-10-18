@@ -1,9 +1,12 @@
 [package]
 name = "proxy-config"
+description = "This is a simple library to help you get the proxy configuration from the system."
 version = "0.1.0"
 edition = "2021"
 authors = ["BppleMan"]
 license = "Apache-2.0"
+homepage = "https://github.com/dragit-git/proxy_config"
+repository = "https://github.com/dragit-git/proxy_config"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
