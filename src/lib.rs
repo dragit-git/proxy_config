@@ -57,7 +57,7 @@ pub trait ProxyConfigProvider: Clone {
 
 #[cfg(test)]
 mod test {
-    use super::*;
+    use crate::{ProxyConfig, ProxyConfigProvider};
 
     #[test]
     fn test_proxy_config() -> color_eyre::Result<()> {

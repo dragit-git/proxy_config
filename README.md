@@ -27,11 +27,11 @@ but directly sets the proxy configuration for the system's desktop manager
 
 ```toml
 [dependencies]
-proxy_config = "0.1"
+proxyconfig = "0.1"
 ```
 
 ```rust
-use proxy_config::ProxyConfig;
+use proxyconfig::{ProxyConfig, ProxyConfigProvider};
 
 let proxy_config = ProxyConfig::try_get().unwrap();
 ```
