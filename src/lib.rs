@@ -60,8 +60,10 @@ mod test {
     use super::*;
 
     #[test]
-    fn test_proxy_config() {
+    fn test_proxy_config() -> color_eyre::Result<()> {
+        color_eyre::install()?;
         let proxy_config = ProxyConfig::try_get().unwrap();
-        println!("{:?}", proxy_config);
+        println!("{:#?}", proxy_config);
+        Ok(())
     }
 }

@@ -40,4 +40,4 @@ let proxy_config = ProxyConfig::try_get().unwrap();
 
 * macOS
 * Linux with GNOME
-* Windows (in progress)
+* Windows
